@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="199" started-at="2019-06-03T09:54:03Z" finished-at="2019-06-03T09:54:04Z">
+  <suite name="Default suite" duration-ms="41505" started-at="2019-06-03T11:57:40Z" finished-at="2019-06-03T11:58:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="199" started-at="2019-06-03T09:54:03Z" finished-at="2019-06-03T09:54:04Z">
-      <class name="unitTestCases.MyFirstUnitTest">
-        <test-method status="PASS" signature="unitTest1()[pri:0, instance:unitTestCases.MyFirstUnitTest@100fc185]" name="unitTest1" duration-ms="33" started-at="2019-06-03T09:54:04Z" finished-at="2019-06-03T09:54:04Z">
+    <test name="Default test" duration-ms="41505" started-at="2019-06-03T11:57:40Z" finished-at="2019-06-03T11:58:21Z">
+      <class name="unitTestCases.E2E_TestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:unitTestCases.E2E_TestCase@ed9d034]" name="setUp" is-config="true" duration-ms="34906" started-at="2019-06-03T11:57:40Z" finished-at="2019-06-03T11:58:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- unitTest1 -->
-      </class> <!-- unitTestCases.MyFirstUnitTest -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="autoComplete()[pri:0, instance:unitTestCases.E2E_TestCase@ed9d034]" name="autoComplete" duration-ms="5270" started-at="2019-06-03T11:58:15Z" finished-at="2019-06-03T11:58:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoComplete -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:unitTestCases.E2E_TestCase@ed9d034]" name="tearDown" is-config="true" duration-ms="1228" started-at="2019-06-03T11:58:20Z" finished-at="2019-06-03T11:58:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- unitTestCases.E2E_TestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
