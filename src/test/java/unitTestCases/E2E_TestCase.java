@@ -18,7 +18,7 @@ public class E2E_TestCase {
 	JavascriptExecutor jse;
 		 
 	@BeforeTest
-		public void setUp() {
+	public void setUp() {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Abha Kumari\\Documents\\INTERVIEW\\SELENIUM\\chromedriver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
@@ -29,21 +29,25 @@ public class E2E_TestCase {
 
 	 public void launchURL() {
 		 driver.get("http://formy-project.herokuapp.com/");
-		
-	 }
+		 }
 	 
-	 @Test 
+	 @Test (priority = 1)
+	 public void unitTest1() {
+			System.out.println("My first unit test case");
+		}
+	 
+	 
+	 @Test (priority = 2)
 	 //(priority = 1, groups = "Feature#1")
 	 public void autoComplete() {
-		   
-	launchURL();
-	WebDriverWait wait=new WebDriverWait(driver, 20); //Explicit wait
-	WebElement btnAutocomplete = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@class='btn btn-lg' and @href='/autocomplete']")));
-	btnAutocomplete.click();
-	WebElement Address = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("autocomplete")));
-	Address.clear();
-	Address.sendKeys("1555 Park Blvd, Palo Alto, CA");
-	}
+		 launchURL();
+		 WebDriverWait wait=new WebDriverWait(driver, 20); //Explicit wait
+		 WebElement btnAutocomplete = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@class='btn btn-lg' and @href='/autocomplete']")));
+		 btnAutocomplete.click();
+		 WebElement Address = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("autocomplete")));
+		 Address.clear();
+		 Address.sendKeys("1555 Park Blvd, Palo Alto, CA");
+		 }
 	 
 	 @AfterTest
 	 public void tearDown() {
