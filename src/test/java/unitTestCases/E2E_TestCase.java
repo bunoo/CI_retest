@@ -31,13 +31,13 @@ public class E2E_TestCase {
 		 driver.get("http://formy-project.herokuapp.com/");
 		 }
 	 
-	 @Test (priority = 1)
+	 @Test (priority = 1, groups = "printing")
 	 public void unitTest1() {
 			System.out.println("My first unit test case");
 		}
 	 
 	 
-	 @Test (priority = 2)
+	 @Test (priority = 2, groups = "Feature")
 	 //(priority = 1, groups = "Feature#1")
 	 public void autoComplete() {
 		 launchURL();

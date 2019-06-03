@@ -2,24 +2,30 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25418" started-at="2019-06-03T12:30:50Z" finished-at="2019-06-03T12:31:15Z">
+  <suite name="Default suite" duration-ms="27106" started-at="2019-06-03T12:44:48Z" finished-at="2019-06-03T12:45:16Z">
     <groups>
+      <group name="Feature">
+        <method signature="E2E_TestCase.autoComplete()[pri:2, instance:unitTestCases.E2E_TestCase@ed9d034]" name="autoComplete" class="unitTestCases.E2E_TestCase"/>
+      </group> <!-- Feature -->
+      <group name="printing">
+        <method signature="E2E_TestCase.unitTest1()[pri:1, instance:unitTestCases.E2E_TestCase@ed9d034]" name="unitTest1" class="unitTestCases.E2E_TestCase"/>
+      </group> <!-- printing -->
     </groups>
-    <test name="Default test" duration-ms="25418" started-at="2019-06-03T12:30:50Z" finished-at="2019-06-03T12:31:15Z">
+    <test name="Default test" duration-ms="27106" started-at="2019-06-03T12:44:48Z" finished-at="2019-06-03T12:45:16Z">
       <class name="unitTestCases.E2E_TestCase">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:unitTestCases.E2E_TestCase@ed9d034]" name="setUp" is-config="true" duration-ms="17368" started-at="2019-06-03T12:30:50Z" finished-at="2019-06-03T12:31:07Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:unitTestCases.E2E_TestCase@ed9d034]" name="setUp" is-config="true" duration-ms="23212" started-at="2019-06-03T12:44:48Z" finished-at="2019-06-03T12:45:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="unitTest1()[pri:1, instance:unitTestCases.E2E_TestCase@ed9d034]" name="unitTest1" duration-ms="30" started-at="2019-06-03T12:31:07Z" finished-at="2019-06-03T12:31:07Z">
+        <test-method status="PASS" signature="unitTest1()[pri:1, instance:unitTestCases.E2E_TestCase@ed9d034]" name="unitTest1" duration-ms="10" started-at="2019-06-03T12:45:12Z" finished-at="2019-06-03T12:45:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unitTest1 -->
-        <test-method status="PASS" signature="autoComplete()[pri:2, instance:unitTestCases.E2E_TestCase@ed9d034]" name="autoComplete" duration-ms="6527" started-at="2019-06-03T12:31:07Z" finished-at="2019-06-03T12:31:14Z">
+        <test-method status="PASS" signature="autoComplete()[pri:2, instance:unitTestCases.E2E_TestCase@ed9d034]" name="autoComplete" duration-ms="2839" started-at="2019-06-03T12:45:12Z" finished-at="2019-06-03T12:45:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- autoComplete -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:unitTestCases.E2E_TestCase@ed9d034]" name="tearDown" is-config="true" duration-ms="1366" started-at="2019-06-03T12:31:14Z" finished-at="2019-06-03T12:31:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:unitTestCases.E2E_TestCase@ed9d034]" name="tearDown" is-config="true" duration-ms="989" started-at="2019-06-03T12:45:15Z" finished-at="2019-06-03T12:45:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
