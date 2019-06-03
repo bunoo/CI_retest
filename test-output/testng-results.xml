@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="148" started-at="2019-06-02T10:29:31Z" finished-at="2019-06-02T10:29:31Z">
+  <suite name="Default suite" duration-ms="199" started-at="2019-06-03T09:54:03Z" finished-at="2019-06-03T09:54:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="148" started-at="2019-06-02T10:29:31Z" finished-at="2019-06-02T10:29:31Z">
-      <class name="simpleTestCase.HelloWorldProg">
-        <test-method status="PASS" signature="test_TeamCity()[pri:0, instance:simpleTestCase.HelloWorldProg@100fc185]" name="test_TeamCity" duration-ms="52" started-at="2019-06-02T10:29:31Z" finished-at="2019-06-02T10:29:31Z">
+    <test name="Default test" duration-ms="199" started-at="2019-06-03T09:54:03Z" finished-at="2019-06-03T09:54:04Z">
+      <class name="unitTestCases.MyFirstUnitTest">
+        <test-method status="PASS" signature="unitTest1()[pri:0, instance:unitTestCases.MyFirstUnitTest@100fc185]" name="unitTest1" duration-ms="33" started-at="2019-06-03T09:54:04Z" finished-at="2019-06-03T09:54:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_TeamCity -->
-      </class> <!-- simpleTestCase.HelloWorldProg -->
+        </test-method> <!-- unitTest1 -->
+      </class> <!-- unitTestCases.MyFirstUnitTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
