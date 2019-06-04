@@ -1,35 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20623" started-at="2019-06-03T12:55:41Z" finished-at="2019-06-03T12:56:02Z">
+  <suite name="Default suite" duration-ms="64726" started-at="2019-06-04T07:27:25Z" finished-at="2019-06-04T07:28:30Z">
     <groups>
-      <group name="Feature">
-        <method signature="E2E_TestCase.autoComplete()[pri:2, instance:unitTestCases.E2E_TestCase@77ec78b9]" name="autoComplete" class="unitTestCases.E2E_TestCase"/>
-      </group> <!-- Feature -->
-      <group name="printing">
-        <method signature="E2E_TestCase.unitTest1()[pri:1, instance:unitTestCases.E2E_TestCase@77ec78b9]" name="unitTest1" class="unitTestCases.E2E_TestCase"/>
-      </group> <!-- printing -->
+      <group name="Form Submission">
+        <method signature="DriverScript.JiraId_1206()[pri:7, instance:test.DriverScript@77ec78b9]" name="JiraId_1206" class="test.DriverScript"/>
+      </group> <!-- Form Submission -->
     </groups>
-    <test name="Default test" duration-ms="20623" started-at="2019-06-03T12:55:41Z" finished-at="2019-06-03T12:56:02Z">
-      <class name="unitTestCases.E2E_TestCase">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:unitTestCases.E2E_TestCase@77ec78b9]" name="setUp" is-config="true" duration-ms="16344" started-at="2019-06-03T12:55:41Z" finished-at="2019-06-03T12:55:58Z">
+    <test name="Default test" duration-ms="64726" started-at="2019-06-04T07:27:25Z" finished-at="2019-06-04T07:28:30Z">
+      <class name="test.DriverScript">
+        <test-method status="PASS" signature="pre_requisute()[pri:0, instance:test.DriverScript@77ec78b9]" name="pre_requisute" is-config="true" duration-ms="19814" started-at="2019-06-04T07:27:25Z" finished-at="2019-06-04T07:27:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="unitTest1()[pri:1, instance:unitTestCases.E2E_TestCase@77ec78b9]" name="unitTest1" duration-ms="12" started-at="2019-06-03T12:55:58Z" finished-at="2019-06-03T12:55:58Z">
+        </test-method> <!-- pre_requisute -->
+        <test-method status="PASS" signature="JiraId_1206()[pri:7, instance:test.DriverScript@77ec78b9]" name="JiraId_1206" duration-ms="33747" started-at="2019-06-04T07:27:45Z" finished-at="2019-06-04T07:28:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- unitTest1 -->
-        <test-method status="PASS" signature="autoComplete()[pri:2, instance:unitTestCases.E2E_TestCase@77ec78b9]" name="autoComplete" duration-ms="2735" started-at="2019-06-03T12:55:58Z" finished-at="2019-06-03T12:56:01Z">
+        </test-method> <!-- JiraId_1206 -->
+        <test-method status="PASS" signature="closeTheSession()[pri:0, instance:test.DriverScript@77ec78b9]" name="closeTheSession" is-config="true" duration-ms="11070" started-at="2019-06-04T07:28:19Z" finished-at="2019-06-04T07:28:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- autoComplete -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:unitTestCases.E2E_TestCase@77ec78b9]" name="tearDown" is-config="true" duration-ms="1358" started-at="2019-06-03T12:56:01Z" finished-at="2019-06-03T12:56:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- unitTestCases.E2E_TestCase -->
+        </test-method> <!-- closeTheSession -->
+      </class> <!-- test.DriverScript -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
