@@ -1,0 +1,90 @@
+commit 8b183c459eb2a66253e9972c393b913473438148
+Author: abha <abha@example.com>
+Date:   Wed Jun 5 15:24:35 2019 +0530
+
+    Added poi-ooxml dependency in the POM.xml file
+
+commit 483a54db790ba0aeda0141f2fbd5e8e119869a02
+Author: abha <abha@example.com>
+Date:   Wed Jun 5 15:02:46 2019 +0530
+
+    Imported some extra classes in the ExcelUtils.java file
+
+commit 8c1a6bd2aabfb1b73e2ce0c295f94e0f10c8952c
+Author: abha <abha@example.com>
+Date:   Wed Jun 5 14:55:35 2019 +0530
+
+    Added <import java.io.File> package in the ExcelUtils.java file
+
+commit a9b48be4c5fe762224c28000cfa26b97aa645638
+Author: abha <abha@example.com>
+Date:   Wed Jun 5 12:22:23 2019 +0530
+
+    Adding maven-compiler-plugin in the POM.xml file
+
+commit 6ef44bb98b58df84100c2117bd2c6bb579b878b9
+Merge: d394d19 c57f0cf
+Author: abha <abha@example.com>
+Date:   Wed Jun 5 11:32:33 2019 +0530
+
+    Merge branch 'master' of https://github.com/bunoo/CI_retest
+
+commit d394d192d50fc442e7dad6c11bbd7cd42b5acd6e
+Merge: 2b20500 e6ec58b
+Author: abha <abha@example.com>
+Date:   Wed Jun 5 11:18:43 2019 +0530
+
+    Remove <scope>compile</scope> for org.apache.poi dependency in the pom.xml...I tried earlier but something went wrong
+
+commit c57f0cf2095c2246cfb298b2a0db99ebf892f5fc
+Merge: 2b20500 e6ec58b
+Author: abha <abha@example.com>
+Date:   Wed Jun 5 11:18:43 2019 +0530
+
+    Merge branch 'master' of https://github.com/bunoo/CI_retest
+    
+    PIYUSH - This is required because in the last commit, I straightaway run
+    the commit with amend argument, but I did not bring any amendment in
+    the STAGGING AREA
+
+commit 2b20500e5f7beff50d28c7d0a2a601673103ccb1
+Author: abha <abha@example.com>
+Date:   Tue Jun 4 15:23:28 2019 +0530
+
+    Remove <scope>compile</scope> for org.apache.poi dependency in the pom.xml
+
+commit e6ec58bb8b04a1b314a98967133a1f6df062d1c0
+Author: abha <abha@example.com>
+Date:   Tue Jun 4 15:23:28 2019 +0530
+
+    Added <scope>compile</scope> for org.apache.poi dependency in the pom.xml
+
+commit 1308c8dae44ec73c5574e7e77110fb924dfeaff6
+Author: abha <abha@example.com>
+Date:   Tue Jun 4 13:03:49 2019 +0530
+
+    checking in code for Hybrid driven framework
+
+commit f054366e8bb25d85367244d7997f71dc66096286
+Author: abha <abha@example.com>
+Date:   Mon Jun 3 18:28:11 2019 +0530
+
+    removing JUnit dependency from POM.xml because I am not using JUnit
+
+commit 65bc9453834cf5a794b91d06a22af121bb5b8727
+Author: abha <abha@example.com>
+Date:   Mon Jun 3 18:16:37 2019 +0530
+
+    Segregate test cases groups wise
+
+commit 1bc121f81d0daf024d74946abfecbf3b5faf17e3
+Author: abha <abha@example.com>
+Date:   Mon Jun 3 18:07:11 2019 +0530
+
+    Consolidating test cases in a single TestNG class
+
+commit abaef3c8c0285ec0b518e85dceab5b12fbcaa716
+Author: abha <abha@example.com>
+Date:   Mon Jun 3 17:44:27 2019 +0530
+
+    added e2e test case under src\test\java folder
